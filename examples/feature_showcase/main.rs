@@ -9,7 +9,6 @@ mod collector;
 mod context_menu;
 mod inherit_checks;
 mod localization;
-mod modal;
 mod paginate;
 mod panic_handler;
 mod parameter_attributes;
@@ -68,8 +67,6 @@ async fn main() {
             context_menu::echo(),
             inherit_checks::parent_checks(),
             localization::welcome(),
-            modal::modal(),
-            modal::component_modal(),
             paginate::paginate(),
             panic_handler::div(),
             parameter_attributes::addmultiple(),
